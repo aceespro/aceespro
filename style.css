@@ -72,6 +72,13 @@ main {
     transform: translateX(0%);
 }
 
+#abreMenu {
+    position: relative;
+    left: 40px;
+    height: 35px;
+    width: 35px;
+}
+
 #posicionaMenu {
     position: absolute;
     display: flex;
