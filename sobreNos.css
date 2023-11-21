@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
 
-html,
-body {
-    height: 100%;
+html, 
+body{
+    height: 1500px;
     width: 100%;
     z-index: 1;
     font-family: 'Geologica', sans-serif;
@@ -59,6 +59,13 @@ main {
     justify-content: center;
 }
 
+#tudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #menuNav {
     z-index: 2;
     height: 100%;
@@ -85,7 +92,6 @@ main {
     justify-content: right;
     width: 100%;
     height: 100%;
-    z-index: 3;
 }
 
 .nav1 {
@@ -118,7 +124,77 @@ main {
 
 p {
     padding-top: 60px;
-    color: #272727;
+    color: #000;
     font-weight: bold;
-    font-size: 1.9em;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+#blocos {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.bloco {
+    height: 50%;
+    width: 50%;
+    border: 10px #3370CD solid;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    padding: 30px;
+    margin: 0px 0px 30px 0px;
+}
+
+.bloco1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloco2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloco3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.txtP {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.txt {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: justify;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.alfinete {
+    transform: scaleX(-1); 
+    height: 50px; 
+    position: relative;
+    right: 37%;
+    top: 5%;
+}
+
+footer {
+    width: 100%;
+    height: 15%;
+    background-color: #c57c88;
 }
