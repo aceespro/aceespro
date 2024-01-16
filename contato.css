@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     background-color: #000;
-    background-image: url(IMG/fundo1.png);
+    background-image: url(IMG/fundo2.png);
 }
 
 a{
@@ -66,13 +66,6 @@ main {
     justify-content: center;
     width: 100%;
     height: 80%;
-    background-image: url(IMG/fundo1.png);
-}
-
-#tudo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #posicionaMenu {
@@ -105,79 +98,6 @@ main {
     text-decoration: none;
     margin-left: 20px;
 }
-
-p {
-    padding-top: 40px;
-    color: #000000;
-    font-weight: bold;
-    font-size: 2.5em;
-    text-decoration: underline;
-}
-
-#blocos {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.bloco {
-    height: 50%;
-    width: 50%;
-    border: 10px #3370CD solid;
-    border-radius: 15px;
-    background-color: #f0f0f0;
-    padding: 25px;
-    margin: 0px 0px 10px 0px;
-}
-
-.bloco1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.bloco2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.bloco3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.txtP {
-    font-size: 2em;
-    font-weight: bold;
-    padding-bottom: 15px;
-}
-
-.txt {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: justify;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-.alfinete {
-    transform: scaleX(-1); 
-    height: 50px; 
-    position: relative;
-    right: 35%;
-    top: 15%;
-}
-
-
 /*Footer*/
 
 footer {

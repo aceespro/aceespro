@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
 
 body{
-    height: 1500px;
+    height: 1300px;
     width: 100%;
     font-family: 'Geologica', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: #7c99c5;
 }
 
@@ -54,17 +58,13 @@ header {
     height: 150px;
 }
 
+/*Main*/
+
 main {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 80%;
-}
-
-#tudo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #posicionaMenu {
@@ -97,10 +97,28 @@ main {
     text-decoration: none;
     margin-left: 20px;
 }
+/*Footer*/
 
-p {
-    padding-top: 60px;
-    color: #272727;
-    font-weight: bold;
-    font-size: 1.9em;
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: #3370CD;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.logof {
+    height: 40px;
+    margin: 6px;
+}
+
+.divf0 {
+    padding-top: 20px;
+}
+
+.divf1 {
+    margin-bottom: 10px;
 }
