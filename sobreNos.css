@@ -68,6 +68,7 @@ main {
     height: 80%;
     background-image: url(IMG/fundo12.jpeg);
     background-size: auto;
+    background-repeat: no-repeat;
 }
 
 #tudo {
