@@ -9,7 +9,6 @@ body{
     flex-direction: column;
     justify-content: space-around;
     background-color: #000;
-    background-image: url(IMG/fundo1.png);
 }
 
 a{
